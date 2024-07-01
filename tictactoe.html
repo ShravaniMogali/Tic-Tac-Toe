@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic - Tac - Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+    <br><br><br>
+    <h1>Tic - Tac - Toe</h1>
+    <br>
+    <div class="draw hide">
+        <br><br>
+        <h1>It's Draw !</h1><br><br><br>
+        <h3>Try Again !</h3>
+        <br><br><br>
+    </div>
+    <br>
+    <div>
+        <div class="newgame hide">
+            <h1 id="winnermsg"></h1>
+        </div>
+        <button class="newgame_btn hide" >New Game</button>    
+    </div>
+    <br>
+    <div id="game">
+        <div id="container">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    <br>
+    <button id="Reset">Reset</button>
+    <script src="tictactoe.js"></script>
+</body>
+</html>
